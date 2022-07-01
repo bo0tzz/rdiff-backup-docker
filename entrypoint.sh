@@ -4,4 +4,4 @@ set -e
 
 source "/shim/vpn.sh"
 
-exec rdiff-backup $@
+exec rsync $@

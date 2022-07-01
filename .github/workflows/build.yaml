@@ -18,7 +18,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v4
         with:
-          images: ghcr.io/${{ github.repository_owner }}/rdiff-backup
+          images: ghcr.io/${{ github.repository_owner }}/rsync
       
       - name: Login to GHCR
         uses: docker/login-action@v2
